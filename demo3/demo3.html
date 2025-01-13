@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/demo3/demo3.css" />
+    <style>
+      .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .nav {
+        width: 900px;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .menu {
+        display: flex;
+        gap: 32px;
+      }
+      .social {
+        background-color: rgb(195, 117, 22);
+      }
+      .hero {
+        width: 900px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 44px;
+      }
+      .heroBase {
+        width: 50%;
+        height: 300px;
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+      }
+      .title {
+        font-size: 72px;
+        line-height: 98px;
+        font-weight: bolder;
+      }
+      .description {
+        margin-top: 16px;
+        margin-bottom: 32px;
+        font-size: 18px;
+        line-height: 32px;
+      }
+      .button {
+        width: 154px;
+        height: 12px 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: blueviolet;
+        color: white;
+        border-radius: 6px;
+      }
+      .heroImg {
+        width: 100%;
+      }
+      .circle {
+        position: fixed;
+        left: -110px;
+        top: -110px;
+
+        width: 740px;
+        height: 740px;
+        background-color: blueviolet;
+        opacity: 0.5;
+        border-radius: 50%;
+
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">      
+        <div class="nav">
+        <div class="menu">
+          <div>About</div>
+          <div>Pricing</div>
+          <div>Contact</div>
+        </div>
+        <img src="/demo3/images/logo.png" alt="" class="logo" />
+        <div class="social">
+          <img src="/demo3/images/ico_social_1.png" alt="" />
+          <img src="/demo3/images/ico_social_2.png" alt="" />
+          <img src="/demo3/images/ico_social_3.png" alt="" />
+          <img src="/demo3/images/ico_social_4.png" alt="" />
+        </div>
+      </div>
+      <div class="hero">
+        <div class="left heroBase">
+            <div class="title">Landing page UI kit</div>
+            <div class="description">Lorem ipsum dolor sit amet</div>
+            <div class="button">Get started</div>
+        </div>
+        <div class="right heroBase">
+            <img src="/demo3/images/img.png" alt="" class="heroImg">
+            <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

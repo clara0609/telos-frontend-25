@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Telos Frontend 2025",
+			"path": "../Telos Frontend 2025"
+		},
+		{
+			"name": "Telos-frontend-25",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Telos-frontend-25"
+	}
+}
